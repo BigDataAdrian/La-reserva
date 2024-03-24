@@ -15,7 +15,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.11",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.14",
           "QRCoder": "1.4.2",
-          "SkiaSharp": "2.88.7",
+          "SkiaSharp.NativeAssets.Linux.NoDependencies": "2.88.7",
           "Swashbuckle.AspNetCore": "6.4.0",
           "System.Drawing.Common": "7.0.0"
         },
@@ -376,6 +376,16 @@
           "lib/net6.0/SkiaSharp.dll": {
             "assemblyVersion": "2.88.0.0",
             "fileVersion": "2.88.7.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.7": {
+        "dependencies": {
+          "SkiaSharp": "2.88.7"
+        },
+        "native": {
+          "runtimes/linux-x64/native/libSkiaSharp.so": {
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -895,6 +905,13 @@
       "sha512": "sha512-LJHAMrbWO00J7jXWLWehyjqFo29T4VzABimfJb4nICqpEe3c/KvQGWL4ItON8ymzhxYOeFgyxeRzuNzO4GHSug==",
       "path": "skiasharp/2.88.7",
       "hashPath": "skiasharp.2.88.7.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KkMftfAz1lGPnuhyecuLJzeyvMjXtHp9cYVQc/oeLhF8KYrxtUxRy5LOX5oROhyLHy/CyqEl9MoAhqmSH7cV7g==",
+      "path": "skiasharp.nativeassets.linux.nodependencies/2.88.7",
+      "hashPath": "skiasharp.nativeassets.linux.nodependencies.2.88.7.nupkg.sha512"
     },
     "SkiaSharp.NativeAssets.macOS/2.88.7": {
       "type": "package",
